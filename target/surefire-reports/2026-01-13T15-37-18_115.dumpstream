@@ -1,0 +1,5 @@
+# Created at 2026-01-13T15:37:18.398
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Users\admin\eclipse-workspace\ATT13DEC2025Cucumber\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

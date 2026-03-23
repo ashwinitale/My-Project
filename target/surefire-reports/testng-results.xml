@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-13T19:38:05 IST" name="Suite" finished-at="2026-01-13T19:39:54 IST" duration-ms="108356">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.att13thDec.uiappfeatures.AmazonTestRunner@a514af7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-01-13T19:38:05 IST" name="Test" finished-at="2026-01-13T19:39:54 IST" duration-ms="108356">
+      <class name="com.att13thDec.uiappfeatures.AmazonTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.att13thDec.uiappfeatures.AmazonTestRunner@a514af7]" started-at="2026-01-13T19:38:05 IST" name="setUpClass" finished-at="2026-01-13T19:38:08 IST" duration-ms="3001" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@306f6f1d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.att13thDec.uiappfeatures.AmazonTestRunner@a514af7]" started-at="2026-01-13T19:38:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-13T19:38:28 IST" duration-ms="19268" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify title of page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.att13thDec.uiappfeatures.AmazonTestRunner@a514af7]" started-at="2026-01-13T19:38:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-13T19:38:37 IST" duration-ms="9506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify cart icon is displaying"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.att13thDec.uiappfeatures.AmazonTestRunner@a514af7]" started-at="2026-01-13T19:38:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-13T19:39:30 IST" duration-ms="52400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["checkout the deal section"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homepage functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.att13thDec.uiappfeatures.AmazonTestRunner@a514af7]" started-at="2026-01-13T19:39:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-13T19:39:51 IST" duration-ms="20980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["search mobile through home page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.att13thDec.uiappfeatures.AmazonTestRunner@a514af7]" started-at="2026-01-13T19:39:51 IST" name="tearDownClass" finished-at="2026-01-13T19:39:54 IST" duration-ms="3132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.att13thDec.uiappfeatures.AmazonTestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
