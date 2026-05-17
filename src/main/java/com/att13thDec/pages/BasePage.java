@@ -24,14 +24,14 @@ public class BasePage {
 		return ele;
 	}
 	
-	public WebElement waitElementToBeClickable(WebElement element)
+	public WebElement waitForElementToBeClickable(WebElement element)
 	{
-		return wait.until(ExpectedConditions.visibilityOf(element));
+		return wait.until(ExpectedConditions.elementToBeClickable(element));
 	}
 	
 	public void click(WebElement ele)
 	{
-		waitElementToBeClickable(ele).click();
+		waitForElementToBeClickable(ele).click();
 	}
 	
 	public void clearAndSendkeys(WebElement element, String textToBeTyped)

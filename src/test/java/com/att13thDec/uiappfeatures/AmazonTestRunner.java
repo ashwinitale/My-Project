@@ -8,8 +8,8 @@ import io.cucumber.testng.CucumberOptions;
 			features = {"src\\test\\resources\\uiappfeatures"},
 			glue = {"com.att13thDec.uiappfeatures"},
 			plugin = {"pretty", "html:target/cucumberreport/report.html"},
-			publish= true
-			//tags = "@sanity"
+			publish= true,
+			tags = "@sanity"
 			
 			)
 
